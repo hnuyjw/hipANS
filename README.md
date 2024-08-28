@@ -1,6 +1,6 @@
-# hipANS: AMDGPU-based lossless compression for numerical data
+# hipANS: Portable Lossless Compression of Numerical Data for GPU Architectures
 
-Developer: Jinwu Yang
+Developer: Jinwu Yang, Yida Gu, Dingwen Tao @ Institute of Computing Technology, Chinese Academy of Sciences
 
 hipANS is a library implemented in the HIP programming language for fast specialized lossless compression of data on AMD GPUs, meant for ML/HPC applications. It also contains the first publicly available GPU-based generalized [asymmetric numeral system (ANS)](https://en.wikipedia.org/wiki/Asymmetric_numeral_systems) compressor and decompressor on AMD GPUs. It is a GPU analogue to Yann Collet's [FSE (Finite State Entropy)](https://github.com/Cyan4973/FiniteStateEntropy) ANS library.
 
